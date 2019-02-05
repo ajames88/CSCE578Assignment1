@@ -1,1 +1,22 @@
-This is a program for submission in CSCE 578.
+This is a program for submission in CSCE 578 by Austin James.
+
+In order to run the program, enter simply run the executable:
+  './execute <filepath to student data directory> <filepath to COCA data directory>'
+
+The program will read in the entire directories as data.
+
+All code is in 'program.py'.
+
+This project is coded in version python2.7.10.
+
+The program will read in the raw data, parse into sentences and then words.
+The word tokens are then filtered to only include reporting verbs.
+No word tokens are removed from the unfiltered set, so it does contain stop-words, numbers, and punctuation.
+The top 10 most used reporting verbs in each set are then printed out along with the frequencies.
+Output is printed to 'output.txt' in the current directory.
+
+A file named 'myoutput.txt' contains the output I got on my final test of the program.
+
+An analysis of my results can be found in 'Assignment 1 Analysis.pdf'.
+
+The set of reporting verbs I used can be found in 'reportingverbs.txt'.
